@@ -4,39 +4,39 @@
 <style>
 h1, h2 {
     color: #610707;
+    width: 100%;
 }
 
 .content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+    text-align: center;
+}
+
+p
+{
+    text-align: left;
 }
 
 .header
 {
     display: flex;
-    justify-content: left;
-    width: 100%;
 }
 
-.presentation
+h2
 {
-    justify-content: center;
-    width: 100%;
+    text-align: left;
 }
 
 .gallery 
 {
-    justify-content: center;
-    width: 100%;
+    display: flex;
+    width: 1000px;
 }
 
 .gallery-content
 {
-    flex-direction: row;
-    width: 100%;
+    width: 75%;
+    text-align: left;
+    height: 500px;
 }
 </style>
 
@@ -44,10 +44,13 @@ h1, h2 {
     <title>Narrativet</title>
 </head>
 
+
 <body>
     <div class="content">
     <div class="header">
-        <img src="LOGGA.png" width: 5pt; />
+        <div>
+        <a href="file:///C:/Users/alice/Documents/alicesturefors.github.io/index.html"><img src="LOGGA.png" style="width: 150pt;" /></a>
+        </div>
     </div>
     
     <div class="presentation">
@@ -58,20 +61,15 @@ h1, h2 {
         <p>Vi har möten ca en gång i veckan, oftast på tisdag kväll, och man är alltid välkommen! Vi brukar diskutera alla aspekter av skrivande och ibland läser vi varandras texter om så önskas</p>
         </div>
 
+    <h2>Galleri</h2>
     <div class="gallery">
-        <h2>Galleri</h2>
         <div class="gallery-content">
         <div>
-            <embed src="Lorem ipsum.pdf" width=50% />
-            <h3> Donec Vestibulum</h3>
-            <p> Av Anna Johnsson</p>
-        </div>
-        <div></div>
-            <embed src="Lorem ipsum.pdf" width=50% />
+            <embed src="Lorem ipsum.pdf" width="100%;" height="1000px;"/>
             <h3> Donec Vestibulum</h3>
             <p> Av Anna Johnsson</p>
         </div>
         </div>
     </div>
 </div>
-</body>
+</body> 
